@@ -29,19 +29,20 @@ namespace RadnoVrijeme
             culture = CultureInfo.CreateSpecificCulture("hr-HR");
             System.Threading.Thread.CurrentThread.CurrentCulture = culture;
             
-            holidays.Add(DateTime.Parse("01.01.2024."));
-            holidays.Add(DateTime.Parse("06.01.2024."));
-            holidays.Add(DateTime.Parse("31.03.2024."));
-            holidays.Add(DateTime.Parse("01.04.2024."));
-            holidays.Add(DateTime.Parse("01.05.2024."));
-            holidays.Add(DateTime.Parse("30.05.2024."));
-            holidays.Add(DateTime.Parse("22.06.2024."));
-            holidays.Add(DateTime.Parse("05.08.2024."));
-            holidays.Add(DateTime.Parse("15.08.2024."));
-            holidays.Add(DateTime.Parse("01.11.2024."));
-            holidays.Add(DateTime.Parse("18.11.2024."));
-            holidays.Add(DateTime.Parse("25.12.2024."));
-            holidays.Add(DateTime.Parse("26.12.2024."));
+            holidays.Add(DateTime.Parse("01.01.2025."));
+            holidays.Add(DateTime.Parse("06.01.2025."));
+            holidays.Add(DateTime.Parse("20.04.2025."));
+            holidays.Add(DateTime.Parse("21.04.2025."));
+            holidays.Add(DateTime.Parse("01.05.2025."));
+            holidays.Add(DateTime.Parse("30.05.2025."));
+            holidays.Add(DateTime.Parse("19.06.2025."));
+            holidays.Add(DateTime.Parse("22.06.2025."));
+            holidays.Add(DateTime.Parse("05.08.2025."));
+            holidays.Add(DateTime.Parse("15.08.2025."));
+            holidays.Add(DateTime.Parse("01.11.2025."));
+            holidays.Add(DateTime.Parse("18.11.2025."));
+            holidays.Add(DateTime.Parse("25.12.2025."));
+            holidays.Add(DateTime.Parse("26.12.2025."));
         }
 
         public Form1()
